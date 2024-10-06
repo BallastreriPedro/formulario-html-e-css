@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    
+     
+   <main> 
+
+    <div class="formulario">
+        <h1>FORMULARIO</h1>
+        <form>
+
+            <p>
+
+                <label for="name">Nome</label>
+                <input type="name" class="nome" placeholder=" Digite Seu Nome" required>
+
+            </p>
+
+            <p>
+
+                <label for="sobrenome">Sobrenome</label>
+                <input type="name" id="sobrenome" placeholder=" Digite Seu Sobrenome" required>
+
+            </p>
+
+            <p>
+
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" placeholder=" Digite Sua Idade" required>  
+
+            </p>
+
+            <p>
+
+                <label for="data">Data de Nacimento</label>
+                <input type="date" id="idade" placeholder=" Digite a Data de Nacimento" required>  
+
+            </p>
+
+            <p>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder=" Digite seu Email" required>  
+
+            </p>
+
+            <p class="genero">
+
+            <label class="gen">Gênero:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" checked>
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br>
+            <input type="radio" id="outro" name="genero" value="outro">
+            <label for="outro">Outro</label><br>
+            <input type="radio" id="prefiro-nao-dizer" name="genero" value="prefiro-nao-dizer">
+            <label for="prefiro-nao-dizer">Prefiro não dizer</label>
+
+            </p>
+
+            <p>
+
+                <label>Qual seu nivel de escolaridade</label>
+
+                <select id="escolaridade">
+
+                    <option>Ensino Médio - Cursando</option>
+                    <option>Ensino Médio - Incompleto</option>
+                    <option>Ensino Médio - Completo</option>
+                    <option>Ensino Superior - Cursando</option>
+                    <option>Ensino Superior - Completo</option>
+                    <option>Pós-Graduação</option>
+
+                </select>
+
+            </p>
+
+            <p>
+
+                <label>Telefone para Contato</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 0000-0000">
+
+            </p>
+
+            <p class="enviar">
+
+                <input type="submit" class="botao" value="ENVIAR FORMULARIO">
+
+            </p>
+
+        </form>
+
+    </div>
+
+    </main> 
+
+
+</body>
+
+</html>
